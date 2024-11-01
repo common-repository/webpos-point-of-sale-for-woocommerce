@@ -1,0 +1,195 @@
+.viwebpos-hidden, .viwebpos-disabled {
+  display: none !important;
+}
+
+@media print {
+  html, body {
+    color: black;
+  }
+}
+.viwebpos-page-break {
+  page-break-after: always;
+}
+
+.viwebpos-align-right {
+  text-align: right;
+}
+
+.viwebpos-font-bold {
+  font-weight: bold;
+}
+.viwebpos-font-bold ins {
+  text-decoration: none;
+}
+
+.viwebpos-bill-content {
+  margin: auto;
+  font-size: 13px;
+  width: 120mm;
+}
+
+.viwebpos-bill-content-rtl {
+  direction: rtl;
+}
+.viwebpos-bill-content-rtl .viwebpos-bill-product-wrap th:not(.viwebpos-align-right), .viwebpos-bill-content-rtl .viwebpos-bill-col-product-wrap th:not(.viwebpos-align-right) {
+  text-align: right !important;
+}
+.viwebpos-bill-content-rtl .viwebpos-align-right {
+  text-align: left !important;
+}
+
+.viwebpos-bill-content-inner {
+  padding: 10mm;
+}
+.viwebpos-bill-content-inner p {
+  margin: 0;
+}
+.viwebpos-bill-content-inner .viwebpos-bill-header-wrap {
+  display: flex;
+  justify-content: space-around;
+}
+.viwebpos-bill-content-inner .viwebpos-bill-header-wrap.viwebpos-bill-header-center {
+  display: block;
+  text-align: -webkit-center;
+}
+.viwebpos-bill-content-inner .viwebpos-bill-header-wrap.viwebpos-bill-header-center .viwebpos-bill-contact-wrap {
+  max-width: unset;
+}
+.viwebpos-bill-content-inner .viwebpos-bill-header-wrap.viwebpos-bill-header-max .viwebpos-bill-contact-wrap {
+  max-width: unset;
+}
+.viwebpos-bill-content-inner .viwebpos-bill-header-wrap.viwebpos-bill-header-left {
+  flex-direction: unset;
+}
+.viwebpos-bill-content-inner .viwebpos-bill-header-wrap.viwebpos-bill-header-right {
+  flex-direction: row-reverse;
+}
+.viwebpos-bill-content-inner .viwebpos-bill-header-wrap .viwebpos-bill-contact-wrap {
+  align-self: center;
+  max-width: 60%;
+}
+.viwebpos-bill-content-inner .viwebpos-bill-header-wrap .viwebpos-bill-contact-wrap .viwebpos-bill-contact-site-title {
+  width: 100%;
+  text-align: center;
+}
+.viwebpos-bill-content-inner .viwebpos-bill-header-wrap .viwebpos-bill-contact-wrap .viwebpos-bill-contact {
+  text-align: center;
+}
+.viwebpos-bill-content-inner .viwebpos-bill-header-wrap .viwebpos-bill-contact-wrap .viwebpos-bill-contact p {
+  font-size: inherit;
+}
+.viwebpos-bill-content-inner .viwebpos-bill-header-wrap .viwebpos-bill-contact-wrap .viwebpos-bill-contact pre {
+  font-family: inherit;
+  white-space: pre-line;
+  margin: 0;
+  padding: 0;
+}
+.viwebpos-bill-content-inner .viwebpos-bill-logo-preview img {
+  margin: auto;
+  border-radius: 100%;
+  width: 22mm;
+}
+.viwebpos-bill-content-inner .viwebpos-bill-title {
+  text-align: center;
+  padding: 3mm 0;
+  font-size: 20px;
+}
+.viwebpos-bill-content-inner .viwebpos-bill-top {
+  display: grid;
+  grid-gap: 5px;
+  justify-content: space-between;
+  width: 100%;
+  padding-bottom: 3mm;
+}
+.viwebpos-bill-content-inner .viwebpos-bill-top.viwebpos-header-style-1 {
+  grid-template-columns: auto;
+}
+.viwebpos-bill-content-inner .viwebpos-bill-top.viwebpos-header-style-2 {
+  grid-template-columns: auto auto;
+}
+.viwebpos-bill-content-inner .viwebpos-bill-top > div {
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 2mm;
+}
+.viwebpos-bill-content-inner .viwebpos-bill-body table {
+  font-size: 13px;
+  width: 100%;
+  border-spacing: 0;
+}
+.viwebpos-bill-content-inner .viwebpos-bill-body table th {
+  font-weight: normal;
+  padding-left: 0;
+  padding-bottom: 2mm;
+}
+.viwebpos-bill-content-inner .viwebpos-bill-body table td {
+  padding-left: 0;
+  padding-bottom: 2mm;
+}
+.viwebpos-bill-content-inner .viwebpos-bill-body table .viwebpos-bill-product-wrap .viwebpos-bill-product-title-col-block {
+  text-align: left;
+}
+.viwebpos-bill-content-inner .viwebpos-bill-body table .viwebpos-bill-product-title .viwebpos-bill-product-title-inline {
+  padding-right: 1mm;
+}
+.viwebpos-bill-content-inner .viwebpos-bill-body table .viwebpos-bill-product-title .viwebpos-bill-product-price {
+  padding-right: 1mm;
+  font-weight: bold;
+}
+.viwebpos-bill-content-inner .viwebpos-bill-body table .viwebpos-bill-product-title .viwebpos-bill-product-quantity {
+  padding-right: 1mm;
+  font-weight: bold;
+}
+.viwebpos-bill-content-inner .viwebpos-bill-col-body table {
+  width: 100%;
+  border-spacing: 0;
+}
+.viwebpos-bill-content-inner .viwebpos-bill-col-body table tr th {
+  font-weight: normal;
+  padding-left: 0;
+  padding-bottom: 2mm;
+}
+.viwebpos-bill-content-inner .viwebpos-bill-col-body table tr th:not(.viwebpos-bill-col-product-subtotal-label) {
+  padding-right: 1mm;
+}
+.viwebpos-bill-content-inner .viwebpos-bill-col-body table tr td {
+  padding-left: 0;
+  padding-bottom: 2mm;
+}
+.viwebpos-bill-content-inner .viwebpos-bill-col-body table tr td:not(.viwebpos-bill-col-product-subtotal) {
+  padding-right: 1mm;
+}
+.viwebpos-bill-content-inner .viwebpos-bill-col-body table tr .viwebpos-bill-col-product-title-label {
+  text-align: left;
+}
+.viwebpos-bill-content-inner .viwebpos-bill-bottom {
+  border-top: 1px dashed;
+  padding-bottom: 3mm;
+}
+.viwebpos-bill-content-inner .viwebpos-bill-bottom .viwebpos-bill-order-note-wrap {
+  padding-top: 3mm;
+}
+.viwebpos-bill-content-inner .viwebpos-bill-bottom > div:not(.viwebpos-bill-order-note-wrap) {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3mm;
+}
+.viwebpos-bill-content-inner .viwebpos-bill-bottom > div:not(.viwebpos-bill-order-note-wrap).viwebpos-payment-label {
+  padding-left: 5px;
+  font-size: small;
+}
+.viwebpos-bill-content-inner .viwebpos-bill-bottom > div:not(.viwebpos-bill-order-note-wrap) .viwebpos-bill-order-tax {
+  gap: 3px;
+  display: flex;
+}
+.viwebpos-bill-content-inner .viwebpos-bill-footer {
+  border-top: 1px dashed;
+}
+.viwebpos-bill-content-inner .viwebpos-bill-footer .viwebpos-bill-footer-message {
+  padding-top: 3mm;
+  text-align: center;
+  font-size: inherit;
+}
+
+/*# sourceMappingURL=pos_receipt.css.map */

@@ -1,0 +1,948 @@
+.viwebpos-popup-wrap.viwebpos-popup-wrap-print-receipt .viwebpos-popup-container-wrap {
+  width: 450px;
+  max-width: 80%;
+}
+.viwebpos-popup-wrap.viwebpos-popup-wrap-print-receipt .viwebpos-popup-container-wrap .viwebpos-popup-content-value {
+  justify-content: center !important;
+}
+.viwebpos-popup-wrap.viwebpos-popup-wrap-settings-pos .viwebpos-popup-container-wrap {
+  width: 65%;
+}
+.viwebpos-popup-wrap.viwebpos-popup-wrap-settings-pos .viwebpos-popup-container-wrap .viwebpos-popup-content-horizontal {
+  display: inline-flex;
+}
+.viwebpos-popup-wrap.viwebpos-popup-wrap-settings-pos .viwebpos-popup-container-wrap .viwebpos-popup-content-horizontal .viwebpos-popup-content-title {
+  min-width: 250px;
+}
+.viwebpos-popup-wrap.viwebpos-popup-wrap-add-product .viwebpos-popup-container-wrap {
+  width: 450px;
+  max-width: 80%;
+}
+.viwebpos-popup-wrap.viwebpos-popup-wrap-add-product .viwebpos-popup-container-wrap .viwebpos-popup-content .viwebpos-custom-product-name {
+  border: 1px solid #ccc !important;
+  border-radius: 2px;
+  padding-left: 8px !important;
+  width: 100%;
+}
+.viwebpos-popup-wrap.viwebpos-popup-wrap-add-product .viwebpos-popup-container-wrap .viwebpos-popup-content .viwebpos-popup-add-product-qty-wrap {
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+}
+.viwebpos-popup-wrap.viwebpos-popup-wrap-add-product .viwebpos-popup-container-wrap .viwebpos-popup-content .viwebpos-popup-add-product-qty-wrap .viwebpos-popup-add-product-qty-action {
+  padding-left: 10px;
+  padding-right: 10px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  height: 100%;
+  cursor: pointer;
+}
+.viwebpos-popup-wrap.viwebpos-popup-wrap-add-product .viwebpos-popup-container-wrap .viwebpos-popup-content .viwebpos-popup-add-product-qty-wrap .viwebpos-popup-add-product-qty-action.viwebpos-popup-add-product-qty-plus {
+  border-left: 1px solid #ccc !important;
+}
+.viwebpos-popup-wrap.viwebpos-popup-wrap-add-product .viwebpos-popup-container-wrap .viwebpos-popup-content .viwebpos-popup-add-product-qty-wrap .viwebpos-popup-add-product-qty-action.viwebpos-popup-add-product-qty-minus {
+  border-right: 1px solid #ccc !important;
+}
+.viwebpos-popup-wrap.viwebpos-popup-wrap-add-product .viwebpos-popup-container-wrap .viwebpos-popup-content .viwebpos-popup-add-product-qty-wrap .viwebpos-popup-add-product-qty-action i {
+  margin: 0;
+  color: #818381;
+}
+.viwebpos-popup-wrap.viwebpos-popup-wrap-add-product .viwebpos-popup-container-wrap .viwebpos-popup-content .viwebpos-popup-add-product-qty-wrap .custom_product_qty {
+  height: 100%;
+  text-align: center;
+  font-size: 16px;
+  line-height: 16px;
+  padding: 6px 3px !important;
+  width: 80px;
+}
+.viwebpos-popup-wrap.viwebpos-popup-wrap-add-customer .viwebpos-popup-container-wrap {
+  width: 600px;
+  max-width: 80%;
+}
+.viwebpos-popup-wrap.viwebpos-popup-wrap-add-customer .viwebpos-popup-container-wrap .viwebpos-popup-content .viwebpos-popup-content-value {
+  padding-left: 0 !important;
+}
+.viwebpos-popup-wrap.viwebpos-popup-wrap-add-customer .viwebpos-popup-container-wrap .viwebpos-popup-content .viwebpos-popup-content-value .search.dropdown.selection {
+  padding: 10px 8px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  min-height: 37px;
+}
+.viwebpos-popup-wrap.viwebpos-popup-wrap-add-customer .viwebpos-popup-container-wrap .viwebpos-popup-content .viwebpos-popup-content-value .viwebpos-popup-content-value-error {
+  border: 1px solid red !important;
+}
+.viwebpos-popup-wrap.viwebpos-popup-wrap-add-customer .viwebpos-popup-container-wrap .viwebpos-popup-content .viwebpos-popup-content-value select {
+  width: 100%;
+  height: 37px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+}
+.viwebpos-popup-wrap.viwebpos-popup-wrap-add-customer .viwebpos-popup-container-wrap .viwebpos-popup-content .viwebpos-popup-content-value input {
+  border: 1px solid #ccc !important;
+  border-radius: 2px;
+  padding-left: 8px !important;
+  width: 100%;
+}
+.viwebpos-popup-wrap.viwebpos-popup-wrap-add-customer .viwebpos-popup-container-wrap .viwebpos-popup-content .viwebpos-popup-content-value input.search {
+  border: none !important;
+}
+
+.viwebpos-header-wrap .viwebpos-header-search-wrap {
+  position: relative;
+}
+.viwebpos-header-wrap .viwebpos-header-search-wrap .viwebpos-search-product-result-wrap {
+  position: absolute;
+  background: #fff;
+  padding: 15px 0 0;
+  left: 0;
+  top: calc(100% - 1px);
+  border: 1px solid #ccc;
+  border-top: 0;
+  overflow-y: auto;
+  max-height: 70vh;
+  width: 100%;
+  display: inline-flex;
+  flex-direction: column;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+.viwebpos-header-wrap .viwebpos-header-search-wrap .viwebpos-search-product-result-wrap::-webkit-scrollbar {
+  width: 7px;
+}
+.viwebpos-header-wrap .viwebpos-header-search-wrap .viwebpos-search-product-result-wrap::-webkit-scrollbar-track {
+  background: #fbfcfa;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.viwebpos-header-wrap .viwebpos-header-search-wrap .viwebpos-search-product-result-wrap::-webkit-scrollbar-thumb {
+  background: #eeeeee;
+  border-radius: 20px;
+}
+.viwebpos-header-wrap .viwebpos-header-search-wrap .viwebpos-search-product-result-wrap::-webkit-scrollbar-thumb:hover {
+  background: #f2f2f2;
+}
+.viwebpos-header-wrap .viwebpos-header-search-wrap .viwebpos-search-product-result-wrap .viwebpos-search-product-loadmore {
+  position: relative;
+  width: 100%;
+  padding: 10px 0 20px;
+}
+.viwebpos-header-wrap .viwebpos-header-search-wrap .viwebpos-search-product-result-wrap .viwebpos-search-product-loadmore:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background: #fff;
+  opacity: 0.35;
+}
+.viwebpos-header-wrap .viwebpos-header-search-wrap .viwebpos-search-product-result-wrap .viwebpos-search-product-loadmore:before {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 10px);
+  content: "" !important;
+  border: 3px solid #ffffff;
+  border-top: 3px solid #56c3bf;
+  border-bottom: 3px solid #56c3bf;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: viwebpos-spin 1s linear infinite;
+}
+.viwebpos-header-wrap .viwebpos-header-search-wrap .viwebpos-search-product-result-wrap > div:not(.viwebpos-search-product-loadmore) {
+  display: inline-grid;
+  grid-template-columns: 90px minmax(auto, 100%);
+  justify-content: flex-start;
+  grid-gap: 10px;
+  cursor: pointer;
+  color: #606060;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 8px;
+  align-items: flex-start;
+  transition: all 0.3s ease;
+}
+.viwebpos-header-wrap .viwebpos-header-search-wrap .viwebpos-search-product-result-wrap > div:not(.viwebpos-search-product-loadmore):last-child {
+  margin-bottom: 10px;
+}
+.viwebpos-header-wrap .viwebpos-header-search-wrap .viwebpos-search-product-result-wrap > div:not(.viwebpos-search-product-loadmore):hover, .viwebpos-header-wrap .viwebpos-header-search-wrap .viwebpos-search-product-result-wrap > div:not(.viwebpos-search-product-loadmore).viwebpos-search-product-result-mouseenter {
+  box-shadow: inset 0px 0px 0px 1px #90b79a;
+  border-radius: 5px;
+}
+.viwebpos-header-wrap .viwebpos-header-search-wrap .viwebpos-search-product-result-wrap > div:not(.viwebpos-search-product-loadmore).viwebpos-search-product-disabled {
+  opacity: 0.55;
+  cursor: no-drop;
+}
+.viwebpos-header-wrap .viwebpos-header-search-wrap .viwebpos-search-product-result-wrap > div:not(.viwebpos-search-product-loadmore).viwebpos-search-product-empty {
+  grid-template-columns: auto;
+  justify-content: center;
+  text-transform: uppercase;
+  color: #a3a2a2;
+}
+.viwebpos-header-wrap .viwebpos-header-search-wrap .viwebpos-search-product-result-wrap > div:not(.viwebpos-search-product-loadmore) .viwebpos-search-product-image {
+  display: inline-flex;
+  justify-content: center;
+  align-items: start;
+  margin-top: 3px;
+}
+.viwebpos-header-wrap .viwebpos-header-search-wrap .viwebpos-search-product-result-wrap > div:not(.viwebpos-search-product-loadmore) .viwebpos-search-product-image img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 90px;
+}
+.viwebpos-header-wrap .viwebpos-header-search-wrap .viwebpos-search-product-result-wrap > div:not(.viwebpos-search-product-loadmore) .viwebpos-search-product-info {
+  display: inline-grid;
+  grid-gap: 5px;
+}
+.viwebpos-header-wrap .viwebpos-header-search-wrap .viwebpos-search-product-result-wrap > div:not(.viwebpos-search-product-loadmore) .viwebpos-search-product-info .viwebpos-search-product-info1 {
+  display: inline-grid;
+  grid-template-columns: minmax(auto, 100%) auto;
+  justify-content: space-between;
+  grid-gap: 5px;
+  font-weight: bold;
+}
+.viwebpos-header-wrap .viwebpos-header-search-wrap .viwebpos-search-product-result-wrap > div:not(.viwebpos-search-product-loadmore) .viwebpos-search-product-info .viwebpos-search-product-info1.viwebpos-search-product-not_price {
+  grid-template-columns: minmax(auto, 100%);
+}
+.viwebpos-header-wrap .viwebpos-header-search-wrap .viwebpos-search-product-result-wrap > div:not(.viwebpos-search-product-loadmore) .viwebpos-search-product-info .viwebpos-search-product-info1.viwebpos-search-product-not_price .viwebpos-search-product-name {
+  -webkit-line-clamp: 1;
+}
+.viwebpos-header-wrap .viwebpos-header-search-wrap .viwebpos-search-product-result-wrap > div:not(.viwebpos-search-product-loadmore) .viwebpos-search-product-info .viwebpos-search-product-info1 .viwebpos-search-product-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  font-weight: 500;
+}
+.viwebpos-header-wrap .viwebpos-header-search-wrap .viwebpos-search-product-result-wrap > div:not(.viwebpos-search-product-loadmore) .viwebpos-search-product-info .viwebpos-search-product-info1 .viwebpos-search-product-price {
+  display: inline-flex;
+  gap: 5px;
+}
+.viwebpos-header-wrap .viwebpos-header-search-wrap .viwebpos-search-product-result-wrap > div:not(.viwebpos-search-product-loadmore) .viwebpos-search-product-info .viwebpos-search-product-info1 .viwebpos-search-product-price span.amount {
+  white-space: nowrap;
+  color: #777;
+  font-weight: bold;
+}
+.viwebpos-header-wrap .viwebpos-header-search-wrap .viwebpos-search-product-result-wrap > div:not(.viwebpos-search-product-loadmore) .viwebpos-search-product-info .viwebpos-search-product-info1 .viwebpos-search-product-price del span.amount {
+  opacity: 0.7;
+  font-weight: normal;
+  font-size: 13px;
+}
+.viwebpos-header-wrap .viwebpos-header-search-wrap .viwebpos-search-product-result-wrap > div:not(.viwebpos-search-product-loadmore) .viwebpos-search-product-info .viwebpos-search-product-info2 {
+  display: inline-grid;
+  grid-template-columns: minmax(auto, 100%);
+  justify-content: space-between;
+  grid-gap: 5px;
+}
+.viwebpos-header-wrap .viwebpos-header-search-wrap .viwebpos-search-product-result-wrap > div:not(.viwebpos-search-product-loadmore) .viwebpos-search-product-info .viwebpos-search-product-info2 .viwebpos-search-product-swatches {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: flex-start;
+}
+.viwebpos-header-wrap .viwebpos-header-search-wrap .viwebpos-search-product-result-wrap > div:not(.viwebpos-search-product-loadmore) .viwebpos-search-product-info .viwebpos-search-product-info2 .viwebpos-search-product-swatches .viwebpos-attribute-options {
+  min-width: 160px;
+  max-width: 100% !important;
+  background-color: #fff;
+  padding: 5px;
+  height: auto;
+  border: 1px solid #eee;
+}
+.viwebpos-header-wrap .viwebpos-header-action-icons-wrap .viwebpos-header-action-icons-auto_print {
+  color: #35a567;
+}
+.viwebpos-header-wrap .viwebpos-header-action-icons-wrap .viwebpos-header-action-icons-auto_print.viwebpos-header-action-icons-auto_print-disable {
+  color: #d35656;
+}
+
+.viwebpos-bill-of-sale-container {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  display: inline-grid;
+  grid-gap: 5px;
+  grid-template-columns: minmax(auto, 100%) 450px;
+  grid-auto-rows: 100%;
+}
+.viwebpos-bill-of-sale-container .viwebpos-cart-contents-container {
+  position: relative;
+  display: inline-grid;
+  grid-template-rows: minmax(auto, 100%) auto;
+  height: 100%;
+}
+.viwebpos-bill-of-sale-container .viwebpos-cart-contents-container:after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  right: -2px;
+  border-right: 1px dashed #ccc;
+  height: calc(100% - 20px);
+}
+.viwebpos-bill-of-sale-container .viwebpos-cart-contents-container.viwebpos-bill-of-sale-container-empty .viwebpos-cart-contents-reset-and-note {
+  grid-template-columns: auto minmax(auto, 100%);
+}
+.viwebpos-bill-of-sale-container .viwebpos-cart-contents-container.viwebpos-bill-of-sale-container-empty .viwebpos-cart-contents-reset-and-note .viwebpos-cart-contents-reset-icon {
+  display: none;
+}
+.viwebpos-bill-of-sale-container .viwebpos-cart-contents-container.viwebpos-bill-of-sale-container-empty .viwebpos-cart-contents-reset-and-note .viwebpos-cart-contents-order-textarea {
+  margin-bottom: 5px;
+}
+.viwebpos-bill-of-sale-container .viwebpos-cart-contents-container .viwebpos-cart-contents-reset-and-note {
+  display: inline-grid;
+  grid-template-columns: auto auto minmax(auto, 100%);
+  grid-auto-rows: minmax(70px, auto);
+  width: 100%;
+  padding: 5px 15px;
+  align-items: center;
+  color: #8b8989;
+}
+.viwebpos-bill-of-sale-container .viwebpos-cart-contents-container .viwebpos-cart-contents-reset-and-note .viwebpos-cart-contents-reset-icon {
+  cursor: pointer;
+}
+.viwebpos-bill-of-sale-container .viwebpos-cart-contents-container .viwebpos-cart-contents-reset-and-note .viwebpos-cart-contents-reset-icon:hover {
+  color: #d35656;
+}
+.viwebpos-bill-of-sale-container .viwebpos-cart-contents-container .viwebpos-cart-contents-reset-and-note .viwebpos-cart-contents-add-note-icon {
+  cursor: pointer;
+}
+.viwebpos-bill-of-sale-container .viwebpos-cart-contents-container .viwebpos-cart-contents-reset-and-note .viwebpos-cart-contents-add-note-icon:hover ~ .viwebpos-cart-contents-order-note {
+  display: none;
+}
+.viwebpos-bill-of-sale-container .viwebpos-cart-contents-container .viwebpos-cart-contents-reset-and-note .viwebpos-cart-contents-add-note-icon:hover ~ .viwebpos-cart-contents-order-textarea {
+  display: inline-block;
+}
+.viwebpos-bill-of-sale-container .viwebpos-cart-contents-container .viwebpos-cart-contents-reset-and-note .viwebpos-cart-contents-order-textarea {
+  display: none;
+  border: 1px solid #8b8989;
+  outline: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+}
+.viwebpos-bill-of-sale-container .viwebpos-cart-contents-container .viwebpos-cart-contents-reset-and-note .viwebpos-cart-contents-order-textarea:hover {
+  display: inline-block;
+}
+.viwebpos-bill-of-sale-container .viwebpos-cart-contents-container .viwebpos-cart-contents-reset-and-note .viwebpos-cart-contents-order-textarea:hover ~ .viwebpos-cart-contents-order-note {
+  display: none;
+}
+.viwebpos-bill-of-sale-container .viwebpos-cart-contents-container .viwebpos-cart-contents {
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+  overflow: auto;
+  padding: 10px 8px;
+  color: #3e3e3e;
+}
+.viwebpos-bill-of-sale-container .viwebpos-cart-contents-container .viwebpos-cart-contents::-webkit-scrollbar {
+  width: 7px;
+}
+.viwebpos-bill-of-sale-container .viwebpos-cart-contents-container .viwebpos-cart-contents::-webkit-scrollbar-track {
+  background: #fbfcfa;
+  margin-top: 12px;
+  margin-bottom: 2px;
+}
+.viwebpos-bill-of-sale-container .viwebpos-cart-contents-container .viwebpos-cart-contents::-webkit-scrollbar-thumb {
+  background: #eeeeee;
+  border-radius: 20px;
+}
+.viwebpos-bill-of-sale-container .viwebpos-cart-contents-container .viwebpos-cart-contents::-webkit-scrollbar-thumb:hover {
+  background: #f2f2f2;
+}
+.viwebpos-bill-of-sale-container .viwebpos-cart-contents-container .viwebpos-cart-contents .viwebpos-cart-items-wrap {
+  width: 100%;
+  border-spacing: 0;
+  font-size: 14px;
+}
+.viwebpos-bill-of-sale-container .viwebpos-cart-contents-container .viwebpos-cart-contents .viwebpos-cart-items-wrap .viwebpos-cart-item-wrap:nth-child(2n+1):not(.viwebpos-cart-item-wrap-has-note) {
+  box-shadow: 0 1px 0 0 #e9e9e9;
+}
+.viwebpos-bill-of-sale-container .viwebpos-cart-contents-container .viwebpos-cart-contents .viwebpos-cart-items-wrap .viwebpos-cart-item-wrap:nth-child(2n+1):not(.viwebpos-cart-item-wrap-has-note) + .viwebpos-cart-item-wrap {
+  display: none;
+}
+.viwebpos-bill-of-sale-container .viwebpos-cart-contents-container .viwebpos-cart-contents .viwebpos-cart-items-wrap .viwebpos-cart-item-wrap:nth-child(2n+1):not(.viwebpos-cart-item-wrap-has-note):hover {
+  box-shadow: 0 0 0 1px #e9e9e9;
+  border-radius: 3px;
+}
+.viwebpos-bill-of-sale-container .viwebpos-cart-contents-container .viwebpos-cart-contents .viwebpos-cart-items-wrap .viwebpos-cart-item-wrap:nth-child(2n+1):not(.viwebpos-cart-item-wrap-has-note) td {
+  padding-bottom: 15px;
+}
+.viwebpos-bill-of-sale-container .viwebpos-cart-contents-container .viwebpos-cart-contents .viwebpos-cart-items-wrap .viwebpos-cart-item-wrap:nth-child(2n+1).viwebpos-cart-item-wrap-has-note .viwebpos-cart-item-bt-add-note {
+  display: none;
+}
+.viwebpos-bill-of-sale-container .viwebpos-cart-contents-container .viwebpos-cart-contents .viwebpos-cart-items-wrap .viwebpos-cart-item-wrap:nth-child(2n+1):hover, .viwebpos-bill-of-sale-container .viwebpos-cart-contents-container .viwebpos-cart-contents .viwebpos-cart-items-wrap .viwebpos-cart-item-wrap:nth-child(2n+1).viwebpos-cart-item-wrap-mouseenter {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  box-shadow: 0 -1px 0 1px #e9e9e9;
+}
+.viwebpos-bill-of-sale-container .viwebpos-cart-contents-container .viwebpos-cart-contents .viwebpos-cart-items-wrap .viwebpos-cart-item-wrap:nth-child(2n+1):hover + .viwebpos-cart-item-wrap, .viwebpos-bill-of-sale-container .viwebpos-cart-contents-container .viwebpos-cart-contents .viwebpos-cart-items-wrap .viwebpos-cart-item-wrap:nth-child(2n+1).viwebpos-cart-item-wrap-mouseenter + .viwebpos-cart-item-wrap {
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  box-shadow: 0 1px 0 1px #e9e9e9;
+}
+.viwebpos-bill-of-sale-container .viwebpos-cart-contents-container .viwebpos-cart-contents .viwebpos-cart-items-wrap .viwebpos-cart-item-wrap:nth-child(2n+1):hover .viwebpos-cart-item-qty-wrap .viwebpos-product-qty-wrap .viwebpos-cart-item-qty, .viwebpos-bill-of-sale-container .viwebpos-cart-contents-container .viwebpos-cart-contents .viwebpos-cart-items-wrap .viwebpos-cart-item-wrap:nth-child(2n+1).viwebpos-cart-item-wrap-mouseenter .viwebpos-cart-item-qty-wrap .viwebpos-product-qty-wrap .viwebpos-cart-item-qty {
+  box-shadow: none;
+}
+.viwebpos-bill-of-sale-container .viwebpos-cart-contents-container .viwebpos-cart-contents .viwebpos-cart-items-wrap .viwebpos-cart-item-wrap:nth-child(2n+1):hover .viwebpos-cart-item-qty-wrap .viwebpos-product-qty-wrap .viwebpos-product-qty-action, .viwebpos-bill-of-sale-container .viwebpos-cart-contents-container .viwebpos-cart-contents .viwebpos-cart-items-wrap .viwebpos-cart-item-wrap:nth-child(2n+1).viwebpos-cart-item-wrap-mouseenter .viwebpos-cart-item-qty-wrap .viwebpos-product-qty-wrap .viwebpos-product-qty-action {
+  visibility: visible;
+}
+.viwebpos-bill-of-sale-container .viwebpos-cart-contents-container .viwebpos-cart-contents .viwebpos-cart-items-wrap .viwebpos-cart-item-wrap:nth-child(2n+1) td {
+  padding-top: 15px;
+  padding-right: 15px;
+}
+.viwebpos-bill-of-sale-container .viwebpos-cart-contents-container .viwebpos-cart-contents .viwebpos-cart-items-wrap .viwebpos-cart-item-wrap:nth-child(2n+1) td:first-child {
+  padding-left: 7px;
+}
+.viwebpos-bill-of-sale-container .viwebpos-cart-contents-container .viwebpos-cart-contents .viwebpos-cart-items-wrap .viwebpos-cart-item-wrap:nth-child(2n+1) td:last-child {
+  padding-right: 7px;
+}
+.viwebpos-bill-of-sale-container .viwebpos-cart-contents-container .viwebpos-cart-contents .viwebpos-cart-items-wrap .viwebpos-cart-item-wrap:nth-child(2n+1) .viwebpos-cart-item-name-wrap .viwebpos-cart-item-name {
+  text-transform: capitalize;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.viwebpos-bill-of-sale-container .viwebpos-cart-contents-container .viwebpos-cart-contents .viwebpos-cart-items-wrap .viwebpos-cart-item-wrap:nth-child(2n+1) .viwebpos-cart-item-name-wrap .viwebpos-cart-item-swatches {
+  display: inline-flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 8px;
+}
+.viwebpos-bill-of-sale-container .viwebpos-cart-contents-container .viwebpos-cart-contents .viwebpos-cart-items-wrap .viwebpos-cart-item-wrap:nth-child(2n+1) .viwebpos-cart-item-name-wrap .viwebpos-cart-item-swatches select {
+  min-width: 160px;
+  max-width: 100% !important;
+  background-color: #fff;
+  padding: 3px;
+  height: auto;
+  border: 1px solid #b4b4bd;
+  border-radius: 3px;
+}
+.viwebpos-bill-of-sale-container .viwebpos-cart-contents-container .viwebpos-cart-contents .viwebpos-cart-items-wrap .viwebpos-cart-item-wrap:nth-child(2n+1) .viwebpos-cart-item-name-wrap .viwebpos-cart-item-barcode {
+  margin-top: 5px;
+  font-weight: 500;
+}
+.viwebpos-bill-of-sale-container .viwebpos-cart-contents-container .viwebpos-cart-contents .viwebpos-cart-items-wrap .viwebpos-cart-item-wrap:nth-child(2n+1) .viwebpos-cart-item-qty-wrap, .viwebpos-bill-of-sale-container .viwebpos-cart-contents-container .viwebpos-cart-contents .viwebpos-cart-items-wrap .viwebpos-cart-item-wrap:nth-child(2n+1) .viwebpos-cart-item-price, .viwebpos-bill-of-sale-container .viwebpos-cart-contents-container .viwebpos-cart-contents .viwebpos-cart-items-wrap .viwebpos-cart-item-wrap:nth-child(2n+1) .viwebpos-cart-item-subtotal {
+  text-align: right;
+}
+.viwebpos-bill-of-sale-container .viwebpos-cart-contents-container .viwebpos-cart-contents .viwebpos-cart-items-wrap .viwebpos-cart-item-wrap:nth-child(2n+1) .viwebpos-cart-item-subtotal {
+  font-weight: bold;
+  width: 150px;
+}
+.viwebpos-bill-of-sale-container .viwebpos-cart-contents-container .viwebpos-cart-contents .viwebpos-cart-items-wrap .viwebpos-cart-item-wrap:nth-child(2n+1) .viwebpos-cart-item-subtotal small {
+  font-weight: 400;
+}
+.viwebpos-bill-of-sale-container .viwebpos-cart-contents-container .viwebpos-cart-contents .viwebpos-cart-items-wrap .viwebpos-cart-item-wrap:nth-child(2n+1) .viwebpos-cart-item-qty-wrap .viwebpos-product-qty-wrap {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  cursor: pointer;
+}
+.viwebpos-bill-of-sale-container .viwebpos-cart-contents-container .viwebpos-cart-contents .viwebpos-cart-items-wrap .viwebpos-cart-item-wrap:nth-child(2n+1) .viwebpos-cart-item-qty-wrap .viwebpos-product-qty-wrap .viwebpos-cart-item-qty {
+  width: 50px;
+  border: none;
+  text-align: center;
+  box-shadow: 0 1px 0 0 #ccc;
+}
+.viwebpos-bill-of-sale-container .viwebpos-cart-contents-container .viwebpos-cart-contents .viwebpos-cart-items-wrap .viwebpos-cart-item-wrap:nth-child(2n+1) .viwebpos-cart-item-qty-wrap .viwebpos-product-qty-wrap .viwebpos-product-qty-action {
+  visibility: hidden;
+  cursor: pointer;
+  color: #959494;
+}
+.viwebpos-bill-of-sale-container .viwebpos-cart-contents-container .viwebpos-cart-contents .viwebpos-cart-items-wrap .viwebpos-cart-item-wrap:nth-child(2n+1) .viwebpos-cart-item-qty-wrap .viwebpos-product-qty-wrap .viwebpos-product-qty-action i {
+  margin: 0;
+}
+.viwebpos-bill-of-sale-container .viwebpos-cart-contents-container .viwebpos-cart-contents .viwebpos-cart-items-wrap .viwebpos-cart-item-wrap:nth-child(2n+1) .viwebpos-cart-item-action {
+  width: 40px;
+}
+.viwebpos-bill-of-sale-container .viwebpos-cart-contents-container .viwebpos-cart-contents .viwebpos-cart-items-wrap .viwebpos-cart-item-wrap:nth-child(2n+1) .viwebpos-cart-item-action .viwebpos-cart-item-bt-action-wrap {
+  display: inline-flex;
+  justify-content: flex-end;
+  cursor: pointer;
+  width: 100%;
+  gap: 0;
+  color: #959494;
+}
+.viwebpos-bill-of-sale-container .viwebpos-cart-contents-container .viwebpos-cart-contents .viwebpos-cart-items-wrap .viwebpos-cart-item-wrap:nth-child(2n+1) .viwebpos-cart-item-action .viwebpos-cart-item-bt-action-wrap i {
+  margin: 0;
+}
+.viwebpos-bill-of-sale-container .viwebpos-cart-contents-container .viwebpos-cart-contents .viwebpos-cart-items-wrap .viwebpos-cart-item-wrap:nth-child(2n+1) .viwebpos-cart-item-action .viwebpos-cart-item-bt-action-wrap .viwebpos-cart-item-bt-remove:hover {
+  color: #d35656;
+}
+.viwebpos-bill-of-sale-container .viwebpos-cart-contents-container .viwebpos-cart-contents .viwebpos-cart-items-wrap .viwebpos-cart-item-wrap:nth-child(2n+1) .viwebpos-cart-item-action .viwebpos-cart-item-bt-action-wrap .viwebpos-cart-item-bt-add-note:hover {
+  color: #686871;
+}
+.viwebpos-bill-of-sale-container .viwebpos-cart-contents-container .viwebpos-cart-contents .viwebpos-cart-items-wrap .viwebpos-cart-item-wrap:nth-child(2n) {
+  box-shadow: 0 1px 0 0 #e9e9e9;
+  padding-bottom: 8px;
+}
+.viwebpos-bill-of-sale-container .viwebpos-cart-contents-container .viwebpos-cart-contents .viwebpos-cart-items-wrap .viwebpos-cart-item-wrap:nth-child(2n):hover {
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  box-shadow: 0 1px 0 1px #e9e9e9;
+}
+.viwebpos-bill-of-sale-container .viwebpos-cart-contents-container .viwebpos-cart-contents .viwebpos-cart-items-wrap .viwebpos-cart-item-wrap:nth-child(2n) .viwebpos-cart-item-note input {
+  width: 100%;
+  border: 0;
+  border-radius: 3px;
+  background: #f1f5f2a8;
+  color: #685d5d;
+  box-shadow: none;
+  padding: 5px 10px;
+  margin: 8px 0;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container {
+  display: inline-grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto minmax(auto, 100%) auto;
+  padding: 0 15px 10px 10px;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-keyboard-label {
+  opacity: 0.5;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-customer-wrap {
+  margin: 10px auto;
+  width: 100%;
+  position: relative;
+  z-index: 10;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-customer-wrap.viwebpos-checkout-form-customer-tables-wrap {
+  display: inline-grid;
+  justify-content: space-between;
+  grid-template-columns: minmax(50%, 100%) auto;
+  grid-gap: 5px;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-customer-wrap.viwebpos-checkout-form-customer-tables-wrap .viwebpos-checkout-form-table {
+  display: inline-flex;
+  align-items: center;
+  gap: 0;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  background: #fff;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-customer-wrap.viwebpos-checkout-form-customer-tables-wrap .viwebpos-checkout-form-table .viwebpos-checkout-form-table-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  padding-left: 8px;
+  font-weight: bold;
+  color: #2a2c2e;
+  font-size: 12px;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-customer-wrap.viwebpos-checkout-form-customer-tables-wrap .viwebpos-checkout-form-table .viwebpos-checkout-form-table-name ~ .viwebpos-checkout-form-table-search-icon {
+  display: none !important;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-customer-wrap.viwebpos-checkout-form-customer-tables-wrap .viwebpos-checkout-form-table .viwebpos-checkout-form-table-name ~ .viwebpos-checkout-form-table-remove-icon {
+  display: inline-flex !important;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-customer-wrap.viwebpos-checkout-form-customer-tables-wrap .viwebpos-checkout-form-table .viwebpos-checkout-form-table-icon {
+  width: 100%;
+  padding: 0 8px;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: #b1b1b5;
+  cursor: pointer;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-customer-wrap.viwebpos-checkout-form-customer-tables-wrap .viwebpos-checkout-form-table .viwebpos-checkout-form-table-icon:hover {
+  color: #686871;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-customer-wrap.viwebpos-checkout-form-customer-tables-wrap .viwebpos-checkout-form-table .viwebpos-checkout-form-table-icon.viwebpos-checkout-form-table-search-icon {
+  height: 100%;
+  display: inline-flex;
+  z-index: 2;
+  background: #fff;
+  border-radius: 3px;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-customer-wrap.viwebpos-checkout-form-customer-tables-wrap .viwebpos-checkout-form-table .viwebpos-checkout-form-table-icon.viwebpos-checkout-form-table-remove-icon {
+  display: none;
+  font-size: 30px;
+  width: 40px;
+  line-height: 35px;
+  cursor: pointer;
+  color: #686871;
+  transform: rotate(45deg);
+  font-family: "Times New Roman";
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-customer-wrap.viwebpos-checkout-form-customer-tables-wrap .viwebpos-checkout-form-table .viwebpos-checkout-form-table-icon i {
+  margin: 0;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-customer-wrap .viwebpos-search-customers-result-wrap {
+  position: absolute;
+  z-index: 1;
+  background: #fff;
+  padding: 15px 0 0;
+  left: 0;
+  top: calc(100% - 2px);
+  outline: 1px solid #ccc;
+  overflow-y: auto;
+  max-height: 70vh;
+  width: 100%;
+  display: inline-flex;
+  flex-direction: column;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-customer-wrap .viwebpos-search-customers-result-wrap .viwebpos-search-customers-loadmore {
+  position: relative;
+  width: 100%;
+  padding: 10px 0 20px;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-customer-wrap .viwebpos-search-customers-result-wrap .viwebpos-search-customers-loadmore:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background: #fff;
+  opacity: 0.35;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-customer-wrap .viwebpos-search-customers-result-wrap .viwebpos-search-customers-loadmore:before {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 10px);
+  content: "" !important;
+  border: 3px solid #ffffff;
+  border-top: 3px solid #56c3bf;
+  border-bottom: 3px solid #56c3bf;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: viwebpos-spin 1s linear infinite;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-customer-wrap .viwebpos-search-customers-result-wrap::-webkit-scrollbar {
+  width: 7px;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-customer-wrap .viwebpos-search-customers-result-wrap::-webkit-scrollbar-track {
+  background: #fbfcfa;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-customer-wrap .viwebpos-search-customers-result-wrap::-webkit-scrollbar-thumb {
+  background: #eeeeee;
+  border-radius: 20px;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-customer-wrap .viwebpos-search-customers-result-wrap::-webkit-scrollbar-thumb:hover {
+  background: #f2f2f2;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-customer-wrap .viwebpos-search-customers-result-wrap > div {
+  display: inline-grid;
+  grid-template-columns: 100%;
+  justify-content: flex-start;
+  color: #606060;
+  grid-gap: 5px;
+  cursor: pointer;
+  padding: 8px 10px;
+  align-items: flex-start;
+  transition: all 0.3s ease;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-customer-wrap .viwebpos-search-customers-result-wrap > div:last-child {
+  margin-bottom: 10px;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-customer-wrap .viwebpos-search-customers-result-wrap > div.viwebpos-search-customer-result {
+  margin-left: 10px;
+  margin-right: 10px;
+  box-shadow: 0 5px 1px -5px #148730;
+  border-radius: 5px;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-customer-wrap .viwebpos-search-customers-result-wrap > div.viwebpos-search-customer-result:hover {
+  box-shadow: inset 0px 0px 0px 1px #90b79a;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-customer-wrap .viwebpos-search-customers-result-wrap > div.viwebpos-search-customer-result .viwebpos-search-customer-info {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-customer-wrap .viwebpos-search-customers-result-wrap > div.viwebpos-search-customer-result .viwebpos-search-customer-info .viwebpos-search-customer-name {
+  text-transform: capitalize;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-customer-wrap .viwebpos-search-customers-result-wrap > div.viwebpos-search-customer-result .viwebpos-search-customer-info .viwebpos-search-customer-email {
+  white-space: nowrap;
+  color: #058d67;
+  font-weight: bold;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-customer-wrap .viwebpos-search-customers-result-wrap > div.viwebpos-search-customer-empty {
+  grid-template-columns: auto;
+  justify-content: center;
+  text-transform: uppercase;
+  color: #a3a2a2;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-customer-wrap .viwebpos-checkout-form-customer {
+  position: relative;
+  display: inline-grid;
+  grid-template-columns: minmax(auto, 100%) 40px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  background: #fff;
+  width: 100%;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-customer-wrap .viwebpos-checkout-form-customer .viwebpos-checkout-search-customer {
+  z-index: 2;
+  border: 0;
+  padding: 10px 8px;
+  width: 100%;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-customer-wrap .viwebpos-checkout-form-customer .viwebpos-checkout-search-customer.viwebpos-checkout-search-customer-found {
+  font-weight: bold;
+  color: #2a2c2e;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-customer-wrap .viwebpos-checkout-form-customer .viwebpos-checkout-search-customer.viwebpos-checkout-search-customer-found ~ .viwebpos-checkout-form-customer-icon.viwebpos-checkout-form-customer-remove-icon {
+  display: inline-flex;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-customer-wrap .viwebpos-checkout-form-customer .viwebpos-checkout-search-customer.viwebpos-checkout-search-customer-found ~ .viwebpos-checkout-form-customer-icon.viwebpos-checkout-form-customer-search-icon {
+  display: none;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-customer-wrap .viwebpos-checkout-form-customer .viwebpos-checkout-form-customer-icon {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: #b1b1b5;
+  cursor: pointer;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-customer-wrap .viwebpos-checkout-form-customer .viwebpos-checkout-form-customer-icon:hover {
+  color: #686871;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-customer-wrap .viwebpos-checkout-form-customer .viwebpos-checkout-form-customer-icon.viwebpos-checkout-form-customer-search-icon {
+  display: inline-flex;
+  z-index: 2;
+  background: #fff;
+  border-radius: 3px;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-customer-wrap .viwebpos-checkout-form-customer .viwebpos-checkout-form-customer-icon.viwebpos-checkout-form-customer-remove-icon {
+  display: none;
+  font-size: 30px;
+  line-height: 35px;
+  cursor: pointer;
+  color: #686871;
+  transform: rotate(45deg);
+  font-family: "Times New Roman";
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-customer-wrap .viwebpos-checkout-form-customer .viwebpos-checkout-form-customer-icon i {
+  margin: 0;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-content-wrap {
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+  overflow: auto;
+  color: #3e3e3e;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-content-wrap::-webkit-scrollbar {
+  width: 7px;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-content-wrap::-webkit-scrollbar-track {
+  background: #fbfcfa;
+  margin-top: 12px;
+  margin-bottom: 2px;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-content-wrap::-webkit-scrollbar-thumb {
+  background: #eeeeee;
+  border-radius: 20px;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-content-wrap::-webkit-scrollbar-thumb:hover {
+  background: #f2f2f2;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-content-wrap .viwebpos-checkout-form-content {
+  display: inline-grid;
+  grid-template-columns: auto minmax(auto, 100%);
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  text-align: right;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-content-wrap .viwebpos-checkout-form-content.viwebpos-checkout-form-content-total, .viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-content-wrap .viwebpos-checkout-form-content.viwebpos-checkout-form-content-need_to_pay, .viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-content-wrap .viwebpos-checkout-form-content.viwebpos-checkout-form-content-paid, .viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-content-wrap .viwebpos-checkout-form-content.viwebpos-checkout-form-content-change .viwebpos-checkout-form-content-value {
+  font-weight: bold;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-content-wrap .viwebpos-checkout-form-content.viwebpos-checkout-form-content-need_to_pay {
+  cursor: pointer;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-content-wrap .viwebpos-checkout-form-content.viwebpos-checkout-form-content-amount-choose, .viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-content-wrap .viwebpos-checkout-form-content.viwebpos-checkout-form-content-payment-method {
+  padding-top: 5px;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-content-wrap .viwebpos-checkout-form-content.viwebpos-checkout-form-content-amount-choose .viwebpos-checkout-form-content-value, .viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-content-wrap .viwebpos-checkout-form-content.viwebpos-checkout-form-content-payment-method .viwebpos-checkout-form-content-value {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  color: #555;
+  gap: 10px;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-content-wrap .viwebpos-checkout-form-content.viwebpos-checkout-form-content-amount-choose .viwebpos-checkout-form-content-value *, .viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-content-wrap .viwebpos-checkout-form-content.viwebpos-checkout-form-content-payment-method .viwebpos-checkout-form-content-value * {
+  cursor: pointer;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-content-wrap .viwebpos-checkout-form-content.viwebpos-checkout-form-content-amount-choose .viwebpos-checkout-form-content-value {
+  justify-content: space-around;
+  background: #f7f7f7;
+  padding: 15px;
+  border-radius: 10px;
+  font-weight: 500;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-content-wrap .viwebpos-checkout-form-content.viwebpos-checkout-form-content-amount-choose .viwebpos-checkout-form-content-value .viwebpos-checkout-form-content-value-amount {
+  padding: 5px;
+  box-shadow: 0 0 0 1px #ccc;
+  border-radius: 3px;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-content-wrap .viwebpos-checkout-form-content.viwebpos-checkout-form-content-amount-choose .viwebpos-checkout-form-content-value .viwebpos-checkout-form-content-value-amount:hover {
+  background: #f3f3f3;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-content-wrap .viwebpos-checkout-form-content.viwebpos-checkout-form-content-full {
+  grid-template-columns: 100%;
+  gap: 10px;
+  padding: 0;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-content-wrap .viwebpos-checkout-form-content.viwebpos-checkout-form-content-full.viwebpos-checkout-form-content-coupon1 {
+  margin-bottom: 15px;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-content-wrap .viwebpos-checkout-form-content.viwebpos-checkout-form-content-full .viwebpos-checkout-apply-coupon-input {
+  padding: 10px 8px;
+  width: 100%;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  background: #fff;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-content-wrap .viwebpos-checkout-form-content.viwebpos-checkout-form-content-full .viwebpos-checkout-apply-coupon-button {
+  border-radius: 3px;
+  box-shadow: none;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-content-wrap .viwebpos-checkout-form-content.viwebpos-checkout-form-content-full .viwebpos-checkout-form-content-full-info {
+  background: #f7f7f7;
+  border-radius: 3px;
+  display: inline-grid;
+  grid-template-columns: auto minmax(auto, 100%);
+  padding: 8px 10px;
+  cursor: pointer;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-content-wrap .viwebpos-checkout-form-content.viwebpos-checkout-form-content-full .viwebpos-checkout-form-content-full-info.viwebpos-checkout-form-content-fee-redis i {
+  display: none;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-content-wrap .viwebpos-checkout-form-content.viwebpos-checkout-form-content-full .viwebpos-checkout-form-content-full-info i {
+  color: #9f9e9e;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-content-wrap .viwebpos-checkout-form-content.viwebpos-checkout-form-content-full .viwebpos-checkout-form-content-full-info i:hover {
+  color: #d35656;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-content-wrap .viwebpos-checkout-form-content .viwebpos-checkout-form-content-title {
+  display: inline-flex;
+  gap: 5px;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-content-wrap .viwebpos-checkout-form-content .viwebpos-checkout-form-content-value input {
+  border: 0;
+  padding: 0 0 5px;
+  text-align: right;
+  color: #3e3e3e;
+  font-weight: bold;
+  font-size: 16px;
+  border-bottom: 1px solid #e9e9e9;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-content-wrap .viwebpos-checkout-form-content .viwebpos-checkout-form-content-error {
+  color: red !important;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-footer-wrap {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-footer-wrap .viwebpos-checkout-form-footer-action-wrap {
+  display: inline-flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-footer-wrap .viwebpos-checkout-form-footer-action-wrap .viwebpos-checkout-form-footer-action {
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  background: #f7f7f7fa;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 18px;
+  color: #555;
+  font-weight: 500;
+  cursor: pointer;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-footer-wrap .viwebpos-checkout-form-footer-action-wrap .viwebpos-checkout-form-footer-action:hover {
+  box-shadow: inset 0 0 100px 100px #00000012;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-footer-wrap .viwebpos-checkout-form-footer-action-wrap .viwebpos-checkout-form-footer-action:hover .viwebpos-checkout-form-footer-arrow div:not(:first-child) {
+  margin-left: -12px;
+  opacity: 1;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-footer-wrap .viwebpos-checkout-form-footer-action-wrap .viwebpos-checkout-form-footer-action .viwebpos-checkout-form-footer-arrow div {
+  transform: rotate(223deg);
+  border-top: 2px solid #555;
+  border-right: 2px solid #555;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-footer-wrap .viwebpos-checkout-form-footer-action-wrap .viwebpos-checkout-form-footer-action .viwebpos-checkout-form-footer-arrow div:first-child {
+  margin-left: 0;
+  opacity: 1;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-footer-wrap .viwebpos-checkout-form-footer-action-wrap .viwebpos-checkout-form-footer-action .viwebpos-checkout-form-footer-arrow div:last-child {
+  opacity: 0.5;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-footer-wrap .viwebpos-checkout-form-footer-checkout-wrap {
+  width: 100%;
+  padding: 25px 25px 25px 15px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  background: #5eb7b3;
+  display: inline-flex;
+  justify-content: space-between;
+  position: relative;
+  cursor: pointer;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-footer-wrap .viwebpos-checkout-form-footer-checkout-wrap:hover {
+  box-shadow: inset 0 0 100px 100px #00000012;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-footer-wrap .viwebpos-checkout-form-footer-checkout-wrap:hover .viwebpos-checkout-form-footer-arrow div:not(:first-child) {
+  margin-left: -12px;
+  opacity: 1;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-footer-wrap .viwebpos-checkout-form-footer-checkout-wrap .viwebpos-checkout-form-footer-title-wrap {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-footer-wrap .viwebpos-checkout-form-footer-checkout-wrap .viwebpos-checkout-form-footer-total-wrap {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-footer-wrap .viwebpos-checkout-form-footer-checkout-wrap .viwebpos-checkout-form-footer-total-wrap .viwebpos-checkout-form-footer-total {
+  font-style: italic;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-footer-wrap .viwebpos-checkout-form-footer-checkout-wrap .viwebpos-checkout-form-footer-total-wrap .viwebpos-checkout-form-footer-arrow div:first-child {
+  margin-left: 0;
+  opacity: 0.5;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-footer-wrap .viwebpos-checkout-form-footer-checkout-wrap .viwebpos-checkout-form-footer-total-wrap .viwebpos-checkout-form-footer-arrow div:last-child {
+  opacity: 1;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-footer-arrow {
+  display: inline-flex;
+}
+.viwebpos-bill-of-sale-container .viwebpos-checkout-form-container .viwebpos-checkout-form-footer-arrow div {
+  margin-left: -2px;
+  height: 12px;
+  width: 12px;
+  transform: rotate(43deg);
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+  opacity: 0.75;
+  transition: all 0.3s linear;
+}
+
+/*# sourceMappingURL=frontend-bill-of-sale.css.map */

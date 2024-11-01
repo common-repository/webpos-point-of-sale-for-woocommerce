@@ -1,0 +1,63 @@
+/**1.1.2 - 2024.06.19**/
+- Fixed: Can not redirect to the POS page
+
+/**1.1.1 - 2024.04.13**/
+- Fixed: Can not redirect to the POS page
+– Updated: Compatible with WP 6.5 and  WC 8.7
+– Updated: Update support class
+
+/**1.1.0 - 2023.12.15**/
+- Added: Differentiate online orders from customers and orders placed through the POS
+- Updated: Compatible with High-Performance order storage (COT)
+- Updated: Redesign receipts
+- Updated: Update support class
+
+/**1.0.11 - 2023.06.21**/
+- Fixed: Can not input cash of more than 4 digits if use (.) as thousand separator
+
+/**1.0.10 - 2022.12.30**/
+- Fixed: Can not print on ipad in some cases
+- Added: Option to refresh WebPos database on the frontend
+- Added: Option to allow auto add to cart if only one product found
+
+/**1.0.9 - 2022.11.17**/
+– Updated: Update support class
+- Fixed: Improve the POS page loading speed
+
+/**1.0.8 - 2022.08.15**/
+- Fixed: Apply coupon on the POS page
+- Updated: Support RTL
+- Updated: Support browser history navigates the page
+- Updated: Compatibility with CURCY - WooCommerce Multi Currency by VillaTheme
+- Updated: Compatibility with REDIS - WooCommerce Dynamic Pricing and Discounts by VillaTheme
+
+/**1.0.7 - 2022.06.16**/
+- Added: Link to pro
+
+/**1.0.6 - 2022.06.14**/
+- Fixed: Print blank receipt
+
+/**1.0.5 - 2022.05.30**/
+- Added: Apply coupon on the POS page
+- Added: Design the POS layout
+– Updated: Set new keyboard shortcuts
+– Updated: Compatible with WC 6.5 and WP 6.0
+– Updated: Update support class
+
+/**1.0.4 - 2022.03.29**/
+- Updated: Update support class
+
+/**1.0.3 - 2022.03.22**/
+- Updated: Update support class
+
+/*1.0.2  - 2022.02.20*/
+- Fixed: scan repeatedly
+
+/*1.0.2  - 2022.02.20*/
+- Fixed: scan repeatedly
+
+/*1.0.1  - 2022.02.15*/
+- Added: Change variation on bill
+
+/*1.0.0  - 2022.*/
+- Release version 1.0.0

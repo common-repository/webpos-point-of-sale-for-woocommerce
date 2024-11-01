@@ -1,0 +1,1502 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WebPOS – Point of Sale for WooCommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-15 06:55+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.6; wp-5.9\n"
+"X-Domain: webpos-point-of-sale-for-woocommerce"
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/orders.php:250
+#, php-format
+msgid "%1s is a variable product parent and cannot be added."
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/orders.php:247
+#, php-format
+msgid "%1s is no longer available"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:418
+#, php-format
+msgid "%1s is not enough stock to fulfill this order (%2$s available)."
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:415
+#, php-format
+msgid "%s has been added to your cart."
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:416
+#, php-format
+msgid ""
+"%s has been removed from your cart because it can no longer be purchased. "
+"Please contact us if you need assistance."
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:417
+#, php-format
+msgid "%s has been removed from your cart because it has since been modified."
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/transactions.php:116
+msgid "A transaction created successfully."
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:546
+msgid "Activate"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:427
+msgid "Add a custom product"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:119
+msgid "Add coupon"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:111
+msgid "Add custom product"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:383
+msgid "Add customer"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:115
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:382
+msgid "Add new customer"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:357
+msgid "Add new transaction"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:423
+msgid "Add order note"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:422
+msgid "Add product note"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:436
+msgid "ADD TO CART"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:376
+msgid "Address"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:651
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:793
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:561
+msgid "Address line 1"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:652
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:794
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:562
+msgid "Address line 2"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:557
+msgid "All"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/settings-general.php:275
+msgid "Allow the cashier to add custom product to the cart"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/settings-general.php:284
+msgid "Allow the cashier to change the product price"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/settings-general.php:153
+msgid "Allow the cashier to edit customer information"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/settings-general.php:346
+msgid "Allow the cashier to select receipt template before checkout"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/settings-general.php:247
+msgid "Allow the cashier to update orders"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/settings-general.php:280
+msgid "Allow the cashier to update variation the cart"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/settings-general.php:336
+msgid ""
+"Allow to sync POS bills that haven't checkout between difference device."
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/settings-general.php:177
+msgid "Allow your customers to pay with multiple payment methods via POS"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:361
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:452
+msgid "Amount"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/customers.php:132
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:389
+msgid "An account is already registered with this email address."
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/customers.php:190
+msgid "An account was created successfully."
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:419
+msgid "An item which is no longer available was removed from your cart."
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:400
+msgid "APPLY COUPON"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:503
+msgid "Are you sure to log out?"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:199
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/orders.php:616
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/templates/viwebpos-receipt.php:149
+msgid "at"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:534
+msgid "Auto add to cart if only one product found"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/settings-general.php:341
+msgid ""
+"Auto sync online data on the POS page each time duration. Set 0 to not auto "
+"sync data."
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/settings-general.php:337
+msgid "Auto sync POS bill"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/settings-general.php:342
+msgid "Auto sync time"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:201
+msgid "Auto-print receipt after checkout"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:453
+msgid "Back To Bill"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/products.php:37
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/products.php:39
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/products.php:63
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/products.php:82
+msgid "Barcode"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:675
+msgid "Bill font size"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:665
+msgid "Bill title"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:670
+msgid "Bill title font size"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:578
+msgid "Can not change this variation"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/orders.php:138
+msgid "Can not create the order!"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/class/class-print-receipt.php:85
+msgid "Can not find the orders"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:566
+msgid "Can not print receipt"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/transactions.php:110
+msgid "Can't create this transaction."
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/orders.php:65
+msgid "Can't get the order total!"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:540
+msgid "Cart item price"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:541
+msgid "Cart item subtotal"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:548
+msgid "Cart subtotal field"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/class/class-gateway-cash.php:22
+msgid "Cash"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:359
+msgid "Cash in"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:360
+msgid "Cash out"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/class/class-transactions-list-table.php:41
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/orders.php:608
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/templates/viwebpos-receipt.php:166
+msgid "Cashier"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:728
+msgid "Cashier label"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:450
+msgid "Change"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:442
+msgid "CHECKOUT"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:139
+msgid "Checkout and Print"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:586
+msgid "Choose an image"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:754
+msgid "Choose display customer data"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:135
+msgid "Choose payment method"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:653
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:795
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:380
+msgid "City"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:143
+msgid "Close anything"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:656
+msgid "Contact information"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:655
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:797
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:377
+msgid "Country"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:398
+msgid "Coupon"
+msgstr ""
+
+#. %s: coupon code
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/orders.php:322
+#, php-format
+msgid "Coupon \"%1s\" does not exist!"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:401
+#, php-format
+msgid "Coupon \"%s\" does not exist!"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:399
+msgid "Coupon code"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:574
+msgid "Coupon code already applied!"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:571
+msgid "Coupon code applied successfully!"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:572
+msgid "Coupon has been removed"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:573
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/orders.php:379
+msgid "Coupon is not valid."
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:374
+msgid "Coupon label"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:570
+msgid "Coupon usage limit has been reached."
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:525
+msgid "coupons"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/class/class-transactions-list-table.php:47
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:355
+msgid "Create at"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/orders.php:60
+msgid "Create from POS"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/plugins/curcy.php:60
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/plugins/curcy.php:72
+msgid "Currency widget style"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:428
+msgid "Custom product"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:799
+msgid "Customer address"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:781
+msgid "Customer address label"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:755
+msgid "Customer information"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:741
+msgid "Customer label"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:768
+msgid "Customer phone label"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/settings-general.php:149
+msgid "Customer search fields"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/settings-general.php:98
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:173
+msgid "Customers"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:523
+msgid "customers"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:151
+msgid "Decrease the number of products"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/class/class-transactions-list-table.php:66
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/class/class-transactions-list-table.php:118
+msgid "Delete"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:565
+msgid "Direction"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:447
+msgid "Discount"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/settings-general.php:242
+msgid ""
+"Display the orders were created on specific days. Leave blank to show all "
+"orders."
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:748
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:373
+msgid "Email"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/settings-general.php:301
+msgid "Enable"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:721
+msgid "Enable cashier"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:734
+msgid "Enable customer"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:774
+msgid "Enable customer address"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:761
+msgid "Enable customer phone"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:571
+msgid "Enable logo"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:372
+msgid "Enable order coupon"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:695
+msgid "Enable order date create"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:354
+msgid "Enable order note"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:708
+msgid "Enable order number"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:378
+msgid "Enable order POS discount"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:366
+msgid "Enable order shipping"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:396
+msgid "Enable order total"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:360
+msgid "Enable order total tax"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:451
+msgid "Enable product ID"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:445
+msgid "Enable product notes"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:477
+msgid "Enable product price"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:490
+msgid "Enable product quantity"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:464
+msgid "Enable product SKU"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:503
+msgid "Enable product subtotal"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:521
+msgid "Enable product variation"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:390
+msgid "Enable the change"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:384
+msgid "Enable the paid"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/settings-general.php:311
+msgid "Endpoint of the POS page"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/settings-general.php:310
+msgid "Endpoints are appended to your POS page URL"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/orders.php:278
+msgid "Error"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:505
+msgid "Error!"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/orders.php:396
+#, php-format
+msgid "Error: %1s"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/settings-general.php:148
+msgid "Fields being searched when searching customer"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/settings-general.php:251
+msgid "Fields being searched when searching order"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/class/class-transactions-list-table.php:162
+msgid "Filter"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/orders.php:73
+msgid "Filter by POS cashier"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:750
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:371
+msgid "First name"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:559
+#, php-format
+msgid "Fixed (%1$s)"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:131
+msgid "Focus customer paid"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:684
+msgid "Footer message"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/class/class-transactions-list-table.php:158
+msgid "From: "
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:749
+msgid "Full name"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:120
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/settings-general.php:95
+msgid "General"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:462
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/receipt.php:27
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/templates/viwebpos-receipt.php:179
+msgid "Guest"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:537
+msgid "Hide cart item information"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:546
+msgid "Hide checkout form information"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://villatheme.com"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://villatheme.com/extensions/webpos-woocommerce-pos-point-of-sale/"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/class/class-transactions-list-table.php:40
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:375
+msgid "ID"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/class/class-transactions-list-table.php:43
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:351
+msgid "In"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:147
+msgid "Increase the number of products"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:207
+msgid "Keyboard shortcuts"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/class/class-print-receipt.php:47
+msgid "Lack of permission to print receipts."
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:751
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:372
+msgid "Last name"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/settings-general.php:209
+msgid "Leave blank to not limit this"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:526
+msgid "Limit in product name"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:502
+msgid "Load more"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:504
+msgid "Loaded data successfully"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:529
+#, php-format
+msgid "Loading %s data in POS"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:587
+msgid "Logo"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:605
+msgid "Logo border radius"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:593
+msgid "Logo position"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:599
+msgid "Logo width"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:193
+msgid "Logout"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/settings-general.php:144
+msgid "Mandatory fields"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/settings-general.php:143
+msgid "Mandatory fields when adding a new customer"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/class/class-transactions-list-table.php:100
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/templates/viwebpos-receipt.php:559
+msgid "Manual"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/settings-general.php:213
+msgid "Maximum applied coupons"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/settings-general.php:212
+msgid "Maximum number of coupons to be applied"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/class/class-transactions-list-table.php:45
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:353
+msgid "Method"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/settings-general.php:319
+msgid "Multi outlets"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/settings-general.php:323
+msgid "Multi receipt"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/orders.php:167
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/orders.php:102
+msgid "Multiple Methods"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/settings-general.php:178
+msgid "Multiple payment methods"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:187
+msgid "My account"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:429
+msgid "Name"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:448
+msgid "Need to pay"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:565
+msgid "Net Payment"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/orders.php:56
+msgid "No"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/receipt.php:29
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/templates/viwebpos-receipt.php:270
+msgid "No address"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:385
+msgid "No customer found"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/orders.php:291
+msgid "No item add to order!"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:456
+msgid "No order exist to print receipt order id : {order_id}!"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:463
+msgid "No order found"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:237
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/receipt.php:28
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/templates/viwebpos-receipt.php:234
+msgid "No phone number"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:407
+msgid "No product found"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:368
+msgid "No today transaction found"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/transactions.php:80
+msgid "No transaction data."
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/settings-general.php:225
+msgid "None"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/orders.php:204
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/class/class-transactions-list-table.php:46
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:354
+msgid "Note"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/transactions.php:32
+msgid "Number of items per page"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/orders.php:611
+msgid "Online"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:556
+msgid "Online orders"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/settings-general.php:227
+msgid "Only send to admin"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/settings-general.php:228
+msgid "Only send to customer"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/class/class-transactions-list-table.php:42
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:350
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:461
+msgid "Order"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/orders.php:177
+#, php-format
+msgid "Order #%s was created successfully."
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:702
+msgid "Order date create label"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:689
+msgid "Order info column"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:121
+msgid "Order item details"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:356
+msgid "Order note label"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:715
+msgid "Order number label"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:539
+msgid "Order number of cart items"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/settings-general.php:252
+msgid "Order search fields"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/settings-general.php:220
+msgid "Order status"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/orders.php:140
+msgid "Order status changed by WebPOS:"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:122
+msgid "Order total"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:398
+msgid "Order total label"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/class/class-print-receipt.php:73
+msgid "order_id can not be empty"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/settings-general.php:97
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:163
+msgid "Orders"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:522
+msgid "orders"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/class/class-transactions-list-table.php:44
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:352
+msgid "Out"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/settings-general.php:269
+msgid "Override the product barcode with another field. Leave blank to not set"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:637
+msgid "Page margin"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:621
+msgid "Page width"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:449
+msgid "Paid"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/settings-general.php:186
+msgid "Payment"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:451
+msgid "Payment method"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/settings-general.php:99
+msgid "Payments"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:560
+msgid "Percentage (%)"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:374
+msgid "Phone"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:402
+msgid "Please enter a coupon code."
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:386
+msgid "Please enter the customer name."
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:437
+msgid "Please enter the product name"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:438
+msgid "Please enter the product price"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:366
+msgid "Please enter the transaction amount."
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:387
+msgid "Please provide a valid email address."
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:388
+msgid "Please provide a valid phone number."
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:408
+#, php-format
+msgid "Please select some product options before adding \"%s\" to your cart."
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/settings-general.php:185
+msgid "Please select the payment methods for POS other than the 'Cash' gateway"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:158
+msgid "Point of sale"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/orders.php:169
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:555
+msgid "POS"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/orders.php:33
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/orders.php:184
+msgid "POS Cashier"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:380
+msgid "POS discount label"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:381
+msgid "Postcode/ ZIP code"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:431
+msgid "Price"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:458
+msgid "Print"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/settings-general.php:288
+msgid "Print product barcode"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:457
+msgid "Print Receipt"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:155
+msgid "Print sample"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:458
+msgid "Product ID label"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:516
+msgid "Product label"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:430
+msgid "Product name"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:299
+msgid "product note"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:484
+msgid "Product price label"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:497
+msgid "Product quantity label"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:471
+msgid "Product SKU label"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:510
+msgid "Product subtotal label"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/settings-general.php:96
+msgid "Products"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:521
+msgid "products"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:435
+msgid "Quantity"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:365
+msgid "Reason"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:24
+msgid "Receipt"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:559
+msgid "Receipt name"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:182
+msgid "Refresh POS data"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:564
+msgid "Refunded"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:424
+msgid "Remove all items"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:421
+msgid "Remove this item"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:152
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/settings-general.php:125
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:367
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:563
+msgid "Save"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:127
+msgid "Search customer"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:384
+msgid "Search customer (F7)"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:501
+msgid "Search order"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:123
+msgid "Search product"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:500
+msgid "Search product (F6)"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:356
+msgid "Search transaction"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/class/class-transactions-list-table.php:125
+msgid "Search Transactions"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/class/class-transactions-list-table.php:154
+msgid "Select a cashier"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:378
+msgid "Select an option"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/settings-general.php:347
+msgid "Select template to print"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/settings-general.php:232
+msgid "Send orders email"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/settings-general.php:231
+msgid "Send WooCommecre order email after creating orders from POS"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/settings-general.php:203
+msgid "Sequential invoice numbering"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/admin.php:19
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/admin.php:20
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/settings-general.php:30
+msgid "Settings"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:177
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:532
+msgid "Settings layout"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:446
+msgid "Shipping"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:368
+msgid "Shipping label"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/settings-general.php:243
+msgid "Show orders on POS page"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/settings-general.php:238
+msgid "Show receipt in email"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:650
+msgid "Site Title"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/orders.php:253
+#, php-format
+msgid "Sorry, %1s is not in stock."
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:576
+#, php-format
+msgid ""
+"Sorry, coupon %1$s has already been applied and cannot be used in "
+"conjunction with other coupons."
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:567
+#, php-format
+msgid ""
+"Sorry, it seems the coupon %1$s is invalid - it has now been removed from "
+"your order."
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:569
+#, php-format
+msgid "Sorry, it seems the coupon %1$s is not your."
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:568
+#, php-format
+msgid ""
+"Sorry, it seems the coupon %1$s is not yours - it has now been removed from "
+"your order."
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:411
+msgid ""
+"Sorry, no products matched your selection. Please choose a different "
+"combination."
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:577
+#, php-format
+msgid ""
+"Sorry, the maximum number of coupons to be applied must not be greater than "
+"%1$s."
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:582
+msgid "Sorry, this coupon is not applicable to selected products."
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:584
+#, php-format
+msgid "Sorry, this coupon is not applicable to the categories: %1$s."
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:583
+#, php-format
+msgid "Sorry, this coupon is not applicable to the products: %1$s."
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:575
+msgid "Sorry, this coupon is not valid for sale items."
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:409
+msgid "Sorry, this product cannot be purchased."
+msgstr ""
+
+#. 1: product name 2: quantity in stock
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/orders.php:260
+#, php-format
+msgid ""
+"Sorry, we do not have enough \"%1$s\" in stock to fulfill this order (%2$s "
+"available)."
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:654
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:796
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:379
+msgid "State"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/settings-general.php:219
+msgid "Status of orders create from POS"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:406
+msgid "Stock"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:444
+msgid "Subtotal"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:550
+msgid "Suggested amount"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/settings-general.php:315
+msgid "Support Restaurant/ Cafe mode"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/settings-general.php:328
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:445
+msgid "Tax"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:549
+msgid "Tax field"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/receipt.php:26
+msgid "Template"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:440
+msgid "Template of items field"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:454
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/orders.php:51
+msgid "The cart is empty. Please add some products to the cart!"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:392
+msgid "The change label"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:420
+msgid "The current customer is no longer available."
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/orders.php:268
+msgid "The custom product must have a name."
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:581
+#, php-format
+msgid "The maximum spend for this coupon is %1$s."
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:580
+#, php-format
+msgid "The minimum spend for this coupon is %1$s."
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:386
+msgid "The paid label"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:291
+msgid "The product name"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:439
+msgid "The product quantity must be greater than 0"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:455
+msgid "The total paid is low than the order total!"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:579
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/orders.php:376
+msgid "This coupon has expired."
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/class/class-gateway-cash.php:23
+msgid "This offline gateway is used for POS only."
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/class/class-transactions-list-table.php:160
+msgid "To: "
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:168
+msgid "Today transactions"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:443
+msgid "Total"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:362
+msgid "Total tax label"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:349
+msgid "Transaction ID"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/transactions.php:18
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/transactions.php:47
+msgid "Transactions"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:524
+msgid "transactions"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:358
+msgid "Type"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/functions.php:154
+msgid "Unlock This Feature"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/settings-general.php:154
+msgid "Update customer"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:584
+msgid "Upload / Add image"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/settings-general.php:270
+msgid "Use product meta instead of barcode"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/settings-general.php:265
+msgid "Use SKU instead of barcode"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/settings-general.php:327
+msgid "Use WooCommerce tax rates and calculations"
+msgstr ""
+
+#. Author of the plugin
+msgid "VillaTheme"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/settings-general.php:402
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:45
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:47
+msgid "Visit POS"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/class/class-print-receipt.php:63
+msgid "We were unable to print the receipt, please reload to try again."
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/settings-general.php:20
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/settings-general.php:21
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/settings-general.php:29
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:97
+msgid "WebPOS"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:23
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/receipt.php:128
+msgid "WebPOS Receipt"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/templates/viwebpos-receipt.php:71
+msgid "WebPOS receipt"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/settings-general.php:89
+msgid "WebPOS Settings"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/transactions.php:17
+msgid "WebPOS Transactions"
+msgstr ""
+
+#. Name of the plugin
+msgid "WebPOS – Point of Sale for WooCommerce"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"WebPOS – Point of Sale for WooCommerce allows you to sell in your physical "
+"retail store and sync with data online"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/settings-general.php:332
+msgid "Whitelist IP"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/settings-general.php:226
+msgid "Woo default"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/orders.php:55
+msgid "Yes"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/admin/settings-general.php:202
+msgid ""
+"You can custom orders number to print receipts sequentially. This option "
+"only works with the new order"
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:413
+#, php-format
+msgid "You cannot add \"%s\" to the cart because the product is out of stock."
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:410
+#, php-format
+msgid "You cannot add another \"%s\" to your cart."
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:412
+msgid "You cannot add over 5 items to your cart."
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/frontend/frontend.php:414
+#, php-format
+msgid ""
+"You cannot add that amount of \"%s\" to the cart because there is not enough "
+"stock (%s remaining)."
+msgstr ""
+
+#: D:/git/free-version/webpos-point-of-sale-for-woocommerce/webpos-point-of-sale-for-woocommerce/includes/class/class-transactions-list-table.php:174
+msgid "You do not have permission to delete transactions"
+msgstr ""

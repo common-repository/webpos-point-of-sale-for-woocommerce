@@ -1,0 +1,113 @@
+.viwebpos-popup-wrap {
+  &.viwebpos-popup-wrap-add-transaction {
+    .viwebpos-popup-container-wrap {
+      width: 450px;
+      max-width: 80%;
+
+      .viwebpos-popup-content {
+        .viwebpos-popup-content-add-transaction-type {
+          .viwebpos-popup-content-value {
+            * {
+              cursor: pointer;
+            }
+          }
+        }
+
+        .viwebpos-popup-content-value {
+          justify-content: center !important;
+          gap: 15px !important;
+
+          .viwebpos-popup-content-add-transaction-reason-value {
+            max-width: 290px;
+            border: 1px solid #ccc;
+            border-radius: 2px;
+            width: 100%;
+
+            &:focus, &:focus-visible {
+              outline: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.viwebpos-transactions-container {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 25px 15px;
+
+  .viwebpos-transactions-contents-container {
+    border: 1px solid rgba(34, 36, 38, .15);
+    border-radius: 0.28571429rem;
+    position: relative;
+    overflow: auto;
+
+    &::-webkit-scrollbar {
+      width: 7px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background: #fbfcfa;
+      margin-top: 12px;
+      margin-bottom: 2px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: #eeeeee;
+      border-radius: 20px;
+
+      &:hover {
+        background: #f2f2f2;
+      }
+    }
+
+    .viwebpos-transactions-wrap {
+      border: none;
+
+      &.viwebpos-transactions-wrap-one-page {
+        tfoot {
+          display: none;
+        }
+      }
+
+      &:not(.viwebpos-transactions-wrap-empty) {
+        .viwebpos-search-transaction-empty {
+          display: none !important;
+        }
+      }
+
+      thead {
+        position: sticky;
+        top: 0;
+        left: 0;
+      }
+
+      tfoot {
+        position: sticky;
+        bottom: 0;
+        left: 0;
+
+        .viwebpos-transactions-nav-bt {
+
+        }
+      }
+
+      th, td {
+        color: #686871 !important;
+      }
+
+      tbody {
+        .viwebpos-search-transaction-empty {
+          text-align: center;
+          text-transform: uppercase;
+          color: #a3a2a2;
+        }
+      }
+    }
+  }
+}

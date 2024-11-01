@@ -1,0 +1,61 @@
+{
+  "landingPage": "\/wp-admin\/admin.php?page=viwebpos",
+  "preferredVersions": {
+    "php": "8.0",
+    "wp": "latest"
+  },
+  "phpExtensionBundles": [
+    "kitchen-sink"
+  ],
+  "features": {
+    "networking": true
+  },
+  "steps": [
+    {
+      "step": "installTheme",
+      "themeZipFile": {
+        "resource": "wordpress.org\/themes",
+        "slug": "storefront"
+      },
+      "options": {
+        "activate": true
+      }
+    },
+    {
+      "step": "installPlugin",
+      "pluginZipFile": {
+        "resource": "wordpress.org\/plugins",
+        "slug": "woocommerce"
+      },
+      "options": {
+        "activate": true
+      }
+    },
+    {
+      "step": "setSiteOptions",
+      "options": {
+        "woocommerce_onboarding_profile": "a:1:{s:7:\"skipped\";b:1;}"
+      }
+    },
+    {
+      "step": "writeFile",
+      "path": "/wordpress/wp-content/mu-plugins/rewrite.php",
+      "data": "<?php add_action( 'admin_init', function() {if(!get_option('permalink_structure','')){ global $wp_rewrite; $wp_rewrite->set_permalink_structure('/%postname%/'); $wp_rewrite->flush_rules(); }} );add_filter( 'woocommerce_enable_setup_wizard', '__return_false',99,1); add_filter( 'woocommerce_prevent_automatic_wizard_redirect','__return_true'  ,99,1);"
+    },
+    {
+      "step": "installPlugin",
+      "pluginZipFile": {
+        "resource": "url",
+        "url": "https:\/\/downloads.wordpress.org\/plugin\/webpos-point-of-sale-for-woocommerce.zip"
+      },
+      "options": {
+        "activate": true
+      }
+    },
+    {
+      "step": "login",
+      "username": "admin",
+      "password": "password"
+    }
+  ]
+}

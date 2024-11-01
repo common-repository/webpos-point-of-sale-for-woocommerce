@@ -1,0 +1,151 @@
+.viwebpos-customers-container {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  display: inline-grid;
+  grid-template-columns: repeat(2, minmax(auto, 50%));
+  grid-gap: 5px;
+  grid-auto-rows: 100%;
+  color: #232328;
+  font-size: 14px;
+}
+.viwebpos-customers-container .viwebpos-customers-list-wrap {
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+  height: 100%;
+}
+.viwebpos-customers-container .viwebpos-customers-list-wrap:after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  right: -2px;
+  border-right: 1px dashed #ccc;
+  height: calc(100% - 20px);
+}
+.viwebpos-customers-container .viwebpos-customers-list-wrap .viwebpos-customers-list {
+  width: 100%;
+  height: 100%;
+  padding: 15px 0;
+  overflow: auto;
+  display: inline-flex;
+  flex-direction: column;
+}
+.viwebpos-customers-container .viwebpos-customers-list-wrap .viwebpos-customers-list::-webkit-scrollbar {
+  width: 7px;
+}
+.viwebpos-customers-container .viwebpos-customers-list-wrap .viwebpos-customers-list::-webkit-scrollbar-track {
+  background: #fbfcfa;
+  margin-top: 8px;
+  margin-bottom: 2px;
+}
+.viwebpos-customers-container .viwebpos-customers-list-wrap .viwebpos-customers-list::-webkit-scrollbar-thumb {
+  background: #eeeeee;
+  border-radius: 20px;
+}
+.viwebpos-customers-container .viwebpos-customers-list-wrap .viwebpos-customers-list::-webkit-scrollbar-thumb:hover {
+  background: #f2f2f2;
+}
+.viwebpos-customers-container .viwebpos-customers-list-wrap .viwebpos-customers-list .viwebpos-search-customer-empty {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 500;
+  color: #ccc;
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.viwebpos-customers-container .viwebpos-customers-list-wrap .viwebpos-customers-list .viwebpos-search-customer-more {
+  text-align: center;
+  margin-top: 10px;
+}
+.viwebpos-customers-container .viwebpos-customers-list-wrap .viwebpos-customers-list .viwebpos-search-customer-row {
+  cursor: pointer;
+  color: #606060;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 8px;
+  min-height: 80px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  box-shadow: 0px 10px 1px -10px #02726d;
+}
+.viwebpos-customers-container .viwebpos-customers-list-wrap .viwebpos-customers-list .viwebpos-search-customer-row .viwebpos-search-customer-line {
+  display: inline-grid;
+  grid-template-columns: 60px minmax(auto, 100%) auto;
+  justify-content: flex-start;
+  align-items: center;
+  grid-gap: 10px;
+  width: 100%;
+}
+.viwebpos-customers-container .viwebpos-customers-list-wrap .viwebpos-customers-list .viwebpos-search-customer-row .viwebpos-search-customer-line img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 60px;
+  border-radius: 5px;
+}
+.viwebpos-customers-container .viwebpos-customers-list-wrap .viwebpos-customers-list .viwebpos-search-customer-row .viwebpos-search-customer-line .viwebpos-customer-arrow {
+  display: none;
+}
+.viwebpos-customers-container .viwebpos-customers-list-wrap .viwebpos-customers-list .viwebpos-search-customer-row .viwebpos-search-customer-line .viwebpos-customer-arrow i {
+  font-size: 20px;
+  margin: 0;
+}
+.viwebpos-customers-container .viwebpos-customers-list-wrap .viwebpos-customers-list .viwebpos-search-customer-row .viwebpos-search-customer-line .viwebpos-search-customer-detail .viwebpos-search-customer-name {
+  color: #02726d;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.viwebpos-customers-container .viwebpos-customers-list-wrap .viwebpos-customers-list .viwebpos-search-customer-row:hover, .viwebpos-customers-container .viwebpos-customers-list-wrap .viwebpos-customers-list .viwebpos-search-customer-row.viwebpos-customer-active {
+  box-shadow: inset 0px 0px 0px 1px #019c95;
+  border-radius: 5px;
+}
+.viwebpos-customers-container .viwebpos-customers-list-wrap .viwebpos-customers-list .viwebpos-search-customer-row:hover .viwebpos-search-customer-line .viwebpos-customer-arrow, .viwebpos-customers-container .viwebpos-customers-list-wrap .viwebpos-customers-list .viwebpos-search-customer-row.viwebpos-customer-active .viwebpos-search-customer-line .viwebpos-customer-arrow {
+  display: inline-block;
+  color: #019c95;
+}
+.viwebpos-customers-container .viwebpos-customer-manage-wrap {
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 15px;
+  gap: 15px;
+}
+.viwebpos-customers-container .viwebpos-customer-manage-wrap .viwebpos-customer-manage-header {
+  font-size: 25px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.viwebpos-customers-container .viwebpos-customer-manage-wrap .viwebpos-customer-manage-details {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.viwebpos-customers-container .viwebpos-customer-manage-wrap .viwebpos-customer-manage-details .viwebpos-customer-col-2 {
+  display: inline-flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.viwebpos-customers-container .viwebpos-customer-manage-wrap .viwebpos-customer-manage-details label {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 100%;
+  font-weight: 500;
+}
+.viwebpos-customers-container .viwebpos-customer-manage-wrap .viwebpos-customer-manage-details input, .viwebpos-customers-container .viwebpos-customer-manage-wrap .viwebpos-customer-manage-details select {
+  padding: 10px 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background: #fff;
+  min-height: 37px;
+}
+.viwebpos-customers-container .viwebpos-customer-manage-wrap .viwebpos-customer-manage-details input.viwebpos-content-value-error, .viwebpos-customers-container .viwebpos-customer-manage-wrap .viwebpos-customer-manage-details select.viwebpos-content-value-error {
+  border: 1px solid red;
+}
+
+/*# sourceMappingURL=frontend-customer.css.map */
